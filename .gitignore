@@ -1,0 +1,4 @@
+assets/video/*
+!assets/video/.gitkeep
+__pycache__/
+*.pyc

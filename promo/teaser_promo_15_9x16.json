@@ -1,0 +1,175 @@
+{
+ "name": "teaser_promo_15_9x16",
+ "w": 1080,
+ "h": 1920,
+ "fps": 25,
+ "leak": 0.16,
+ "shots": [
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7852.jpg",
+   "dur": 3.0,
+   "from": [
+    0.6,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.62,
+    0.5,
+    1.12
+   ],
+   "xfade": 0,
+   "trans": "dissolve",
+   "text": [
+    {
+     "text": "Простір для свого життя",
+     "style": "title",
+     "t0": 0.3,
+     "t1": 2.4,
+     "pos": [
+      0.5,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7857.jpg",
+   "dur": 1.8,
+   "from": [
+    0.5,
+    0.55,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.53,
+    1.18
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve"
+  },
+  {
+   "kind": "beforeafter",
+   "dur": 4.4,
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "label": "interior",
+   "wipe": [
+    0.25,
+    0.7
+   ],
+   "angle": -60,
+   "before": {
+    "src": "assets/photos/IMG_7880.jpg",
+    "from": [
+     0.6,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.06
+    ]
+   },
+   "after": {
+    "src": "assets/renders/R1v_house1_living.png",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.06
+    ],
+    "grade": false
+   }
+  },
+  {
+   "kind": "still",
+   "src": "assets/renders/R4v_apt108_hero.png",
+   "dur": 2.4,
+   "from": [
+    0.5,
+    0.55,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.58,
+    1.12
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "label": "interior",
+   "grade": false
+  },
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7858.jpg",
+   "dur": 5.4,
+   "from": [
+    0.5,
+    0.55,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.55,
+    1.08
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "text": [
+    {
+     "text": "Green Park",
+     "style": "logo",
+     "t0": 0.3,
+     "t1": 5.2,
+     "pos": [
+      0.5,
+      0.4
+     ],
+     "band": true
+    },
+    {
+     "text": "Запишіться на перегляд",
+     "style": "sub",
+     "t0": 0.8,
+     "t1": 5.2,
+     "pos": [
+      0.5,
+      0.5
+     ],
+     "band": true,
+     "scale": 1.25
+    },
+    {
+     "text": "с. Новоолександрівка, вул. Польова, 21-А",
+     "style": "sub",
+     "t0": 1.2,
+     "t1": 5.2,
+     "pos": [
+      0.5,
+      0.58
+     ],
+     "scale": 0.62,
+     "band": true
+    }
+   ],
+   "leak": 0.3,
+   "grade": {
+    "warm": 0.03,
+    "contrast": 1.0,
+    "sat": 1.0,
+    "lift": 0.0
+   },
+   "dim": 0.72
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "name": "territory_16x9",
+ "title": "Територія і ком’юніті",
+ "w": 1920,
+ "h": 1080,
+ "fps": 25,
+ "object": "Територія",
+ "shots": [
+  {
+   "id": "TR01",
+   "kind": "video",
+   "src": "IMG_7860",
+   "dur": 3.0,
+   "in": 0.0,
+   "desc": "Територія: загальний прохід (зміст уточнити)",
+   "status": "реальне відео (таймкод уточнити)",
+   "object": "Територія",
+   "need": "Відео не вдалося завантажити в робоче середовище — потрібен файл.",
+   "still": "IMG_7857",
+   "titles": [
+    {
+     "text": "Green Park",
+     "style": "main",
+     "t0": 0.3
+    },
+    {
+     "text": "с. Новоолександрівка",
+     "style": "sub",
+     "t0": 0.5
+    }
+   ]
+  },
+  {
+   "id": "TR02",
+   "kind": "photo",
+   "src": "IMG_7857",
+   "dur": 3.0,
+   "move": "push",
+   "status": "реальне фото",
+   "object": "Територія"
+  },
+  {
+   "id": "TR03",
+   "kind": "photo",
+   "src": "IMG_7856",
+   "dur": 2.4,
+   "move": "pan-l",
+   "status": "реальне фото",
+   "object": "Територія"
+  },
+  {
+   "id": "TR04",
+   "kind": "ai",
+   "src": "IMG_7857",
+   "dur": 3.0,
+   "desc": "Діти на велосипедах уздовж вулиці, батько поруч.",
+   "label": "people",
+   "status": "оживлення реального кадру",
+   "object": "Територія",
+   "prompt_ref": "Промпт: docs/04_ai_prompts.md → M28",
+   "render": "assets/ai/TR04.jpg"
+  },
+  {
+   "id": "TR05",
+   "kind": "photo",
+   "src": "IMG_7858",
+   "dur": 2.6,
+   "move": "pan-r",
+   "status": "реальне фото",
+   "object": "Територія"
+  },
+  {
+   "id": "TR06",
+   "kind": "ai",
+   "src": "IMG_7858",
+   "dur": 3.0,
+   "desc": "Сусіди вітаються, людина з собакою, пара.",
+   "label": "people",
+   "status": "оживлення реального кадру",
+   "object": "Територія",
+   "prompt_ref": "Промпт: docs/04_ai_prompts.md → M07",
+   "render": "assets/ai/TR06.jpg"
+  },
+  {
+   "id": "TR07",
+   "kind": "video",
+   "src": "IMG_7862",
+   "dur": 2.4,
+   "in": 0.0,
+   "desc": "Територія (зміст уточнити)",
+   "status": "реальне відео (таймкод уточнити)",
+   "object": "Територія",
+   "need": "Відео не вдалося завантажити в робоче середовище — потрібен файл.",
+   "still": "IMG_7861"
+  },
+  {
+   "id": "TR08",
+   "kind": "ai",
+   "src": null,
+   "dur": 3.4,
+   "desc": "Басейн за схемою — концепція.",
+   "label": "landscape",
+   "status": "концепція благоустрою",
+   "object": "Територія",
+   "prompt_ref": "Промпт: docs/04_ai_prompts.md → TER-POOL",
+   "render": "assets/ai/TR08.jpg",
+   "path": "assets/plans/skhema_proektiv.png",
+   "move": {
+    "from": [
+     0.24,
+     0.92,
+     2.6
+    ],
+    "to": [
+     0.24,
+     0.92,
+     3.0
+    ]
+   }
+  },
+  {
+   "id": "TR09",
+   "kind": "ai",
+   "src": null,
+   "dur": 3.0,
+   "desc": "Дитячий майданчик за схемою — концепція.",
+   "label": "landscape",
+   "status": "концепція благоустрою",
+   "object": "Територія",
+   "prompt_ref": "Промпт: docs/04_ai_prompts.md → TER-PLAY",
+   "render": "assets/ai/TR09.jpg",
+   "path": "assets/plans/skhema_proektiv.png",
+   "move": {
+    "from": [
+     0.36,
+     0.9,
+     2.6
+    ],
+    "to": [
+     0.36,
+     0.9,
+     3.0
+    ]
+   }
+  },
+  {
+   "id": "TR10",
+   "kind": "ai",
+   "src": null,
+   "dur": 3.0,
+   "desc": "Зона відпочинку: настільна гра, розмова на лаві.",
+   "label": "landscape",
+   "status": "концепція благоустрою",
+   "object": "Територія",
+   "prompt_ref": "Промпт: docs/04_ai_prompts.md → TER-REST",
+   "render": "assets/ai/TR10.jpg",
+   "path": "assets/plans/skhema_proektiv.png",
+   "move": {
+    "from": [
+     0.44,
+     0.3,
+     2.4
+    ],
+    "to": [
+     0.44,
+     0.3,
+     2.8
+    ]
+   }
+  },
+  {
+   "id": "TR11",
+   "kind": "card",
+   "src": "IMG_7861",
+   "dur": 4.0,
+   "dim": 0.62,
+   "move": "push-slow",
+   "titles": [
+    {
+     "text": "Green Park",
+     "style": "logo",
+     "t0": 0.3,
+     "t1": 3.9,
+     "fade_out": 0.01
+    },
+    {
+     "text": "Запишіться на перегляд",
+     "style": "cta",
+     "t0": 1.0,
+     "t1": 3.9,
+     "fade_out": 0.01
+    },
+    {
+     "text": "с. Новоолександрівка, вул. Польова, 21-А",
+     "style": "small",
+     "t0": 1.4,
+     "t1": 3.9,
+     "fade_out": 0.01
+    }
+   ],
+   "status": "реальне фото + титри (контакти — від замовника)",
+   "object": "Територія",
+   "process": "логотип, CTA, адреса; телефон/сайт/QR — лише надані замовником"
+  }
+ ]
+}

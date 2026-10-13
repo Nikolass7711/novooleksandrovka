@@ -1,0 +1,345 @@
+{
+ "name": "cut_promo_30_9x16",
+ "w": 1080,
+ "h": 1920,
+ "fps": 25,
+ "leak": 0.16,
+ "shots": [
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7852.jpg",
+   "dur": 3.4,
+   "from": [
+    0.6,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.62,
+    0.5,
+    1.12
+   ],
+   "xfade": 0,
+   "trans": "dissolve",
+   "text": [
+    {
+     "text": "Green Park",
+     "style": "kicker",
+     "t0": 0.3,
+     "t1": 3.1,
+     "pos": [
+      0.5,
+      0.52
+     ]
+    },
+    {
+     "text": "Простір для свого життя",
+     "style": "title",
+     "t0": 0.5,
+     "t1": 3.1,
+     "pos": [
+      0.5,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7857.jpg",
+   "dur": 3.0,
+   "from": [
+    0.5,
+    0.55,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.53,
+    1.2
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve"
+  },
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7858.jpg",
+   "dur": 2.2,
+   "from": [
+    0.4,
+    0.55,
+    1.05
+   ],
+   "to": [
+    0.6,
+    0.55,
+    1.05
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve"
+  },
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7855.jpg",
+   "dur": 2.2,
+   "from": [
+    0.62,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.64,
+    0.5,
+    1.1
+   ],
+   "xfade": 0.5,
+   "trans": "flash",
+   "text": [
+    {
+     "text": "Будинки · дуплекси · квартири",
+     "style": "sub",
+     "t0": 0.2,
+     "t1": 2.0,
+     "pos": [
+      0.5,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "beforeafter",
+   "dur": 5.0,
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "label": "interior",
+   "wipe": [
+    0.25,
+    0.7
+   ],
+   "angle": -60,
+   "before": {
+    "src": "assets/photos/IMG_7880.jpg",
+    "from": [
+     0.6,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.06
+    ]
+   },
+   "after": {
+    "src": "assets/renders/R1v_house1_living.png",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.06
+    ],
+    "grade": false
+   },
+   "text": [
+    {
+     "text": "136,5 м² на одному рівні",
+     "style": "sub",
+     "t0": 3.0,
+     "t1": 4.4,
+     "pos": [
+      0.5,
+      0.72
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "still",
+   "src": "assets/renders/R5v_house1_bedroom.png",
+   "dur": 3.0,
+   "from": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.5,
+    1.1
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "label": "interior",
+   "grade": false
+  },
+  {
+   "kind": "beforeafter",
+   "dur": 4.6000000000000005,
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "label": "interior",
+   "wipe": [
+    0.25,
+    0.7
+   ],
+   "angle": -60,
+   "before": {
+    "src": "assets/photos/IMG_7865.jpg",
+    "from": [
+     0.45,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.5,
+     1.06
+    ]
+   },
+   "after": {
+    "src": "assets/renders/R3v_smart_hero.png",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.06
+    ],
+    "grade": false
+   },
+   "text": [
+    {
+     "text": "Смарт від 31 м²",
+     "style": "sub",
+     "t0": 2.8,
+     "t1": 4.0,
+     "pos": [
+      0.5,
+      0.72
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "beforeafter",
+   "dur": 4.6000000000000005,
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "label": "interior",
+   "wipe": [
+    0.25,
+    0.7
+   ],
+   "angle": -60,
+   "before": {
+    "src": "assets/photos/IMG_7873.jpg",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.06
+    ]
+   },
+   "after": {
+    "src": "assets/renders/R4v_apt108_hero.png",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.06
+    ],
+    "grade": false
+   },
+   "text": [
+    {
+     "text": "107,9 м² під дахом",
+     "style": "sub",
+     "t0": 2.8,
+     "t1": 4.0,
+     "pos": [
+      0.5,
+      0.72
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "still",
+   "src": "assets/photos/IMG_7858.jpg",
+   "dur": 6.0,
+   "from": [
+    0.5,
+    0.55,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.55,
+    1.08
+   ],
+   "xfade": 0.5,
+   "trans": "dissolve",
+   "text": [
+    {
+     "text": "Green Park",
+     "style": "logo",
+     "t0": 0.3,
+     "t1": 5.8,
+     "pos": [
+      0.5,
+      0.4
+     ],
+     "band": true
+    },
+    {
+     "text": "Запишіться на перегляд",
+     "style": "sub",
+     "t0": 0.8,
+     "t1": 5.8,
+     "pos": [
+      0.5,
+      0.5
+     ],
+     "band": true,
+     "scale": 1.25
+    },
+    {
+     "text": "с. Новоолександрівка, вул. Польова, 21-А",
+     "style": "sub",
+     "t0": 1.2,
+     "t1": 5.8,
+     "pos": [
+      0.5,
+      0.58
+     ],
+     "scale": 0.62,
+     "band": true
+    }
+   ],
+   "leak": 0.3,
+   "grade": {
+    "warm": 0.03,
+    "contrast": 1.0,
+    "sat": 1.0,
+    "lift": 0.0
+   },
+   "dim": 0.72
+  }
+ ]
+}
